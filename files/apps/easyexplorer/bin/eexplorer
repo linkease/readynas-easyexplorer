@@ -1,0 +1,46 @@
+#!/bin/sh
+### BEGIN INIT INFO
+# Provides:          EasyExplorer
+# Required-Start:    $network $local_fs $remote_fs
+# Required-Stop::    $network $local_fs $remote_fs
+# Should-Start:      $all
+# Should-Stop:       $all
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: EasyExplorer - Files Manager
+# Description:       EasyExplorer - Files Manager
+### END INIT INFO
+
+NAME=easy-explorer
+USER=admin
+EEXPLORER=/apps/easyexplorer/bin/$NAME
+PIDFILE=/var/run/$NAME.pid
+
+test -f $EEXPLORER || exit 0
+
+. /lib/lsb/init-functions
+
+case "$1" in
+start)  log_daemon_msg "Starting EasyExplorer" "EasyExplorer"
+        start-stop-daemon -S -q -b -m -p $PIDFILE -c $USER -a $EEXPLORER
+        log_end_msg $?
+        ;;
+stop)   log_daemon_msg "Stopping EasyExplorer" "EasyExplorer"
+        start-stop-daemon -K -q -p $PIDFILE
+        log_end_msg $?
+        ;;
+restart|reload|force-reload)
+        log_daemon_msg "Restarting EasyExplorer" "EasyExplorer"
+        start-stop-daemon -K -R 5 -q -p $PIDFILE
+        start-stop-daemon -S -q -b -m -p $PIDFILE -c $USER -a $EEXPLORER
+        log_end_msg $?
+        ;;
+status)
+        status_of_proc -p $PIDFILE $EEXPLORER EasyExplorer && exit 0 || exit $?
+        ;;
+*)      log_action_msg "Usage: /etc/init.d/eexplorer {start|stop|restart|reload|force-reload|status}"
+
+        exit 2
+        ;;
+esac
+exit 0
