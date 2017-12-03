@@ -1,0 +1,12 @@
+Source: easyexplorer
+Section: contrib
+Priority: extra
+Maintainer: bbis <bbis@cheen.cn>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 1.0
+Homepage: http://koolshare.cn/thread-129199-1-1.html
+
+Package: easyexplorer
+Architecture: all
+Depends: ${misc:Depends}, readynasos (>= 6.0.5~T1271)
+Description: EasyExplorer - A Files Manager tools.
