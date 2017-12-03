@@ -1,0 +1,15 @@
+<Application resource-id="easyexplorer">
+  <AppID>WHOCARES_GENIEAPP_010029</AppID>
+  <Category>APP_CAT_NETWORK_OTHER</Category>   
+  <Name>easyexplorer</Name>
+  <Author>bbis</Author>
+  <Version>1.0</Version>
+  <RequireReboot>0</RequireReboot>
+  <ConfigURL>http://localhost:8899/static/config.html</ConfigURL>
+  <InfoURL>http://koolshare.cn/thread-129199-1-1.html</InfoURL>
+  <LaunchURL>http://localhost:8899/</LaunchURL>
+  <ReservePort>8899</ReservePort>
+  <DebianPackage>easyexplorer</DebianPackage>
+  <ServiceName>fvapp-easyexplorer.service</ServiceName><!-- no service required -->
+  <Description lang="zh-cn">EasyExplorer是一个跨设备文件传输同步工具，支持在任何一个设备上管理所有设备对应的文件夹进行文件增量复制、同步等功能。在网络设备允许下可以进行点对点传输，增加文件传输速度，并支持部分文件在线预览功能。</Description>
+</Application>
