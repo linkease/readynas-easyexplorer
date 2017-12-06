@@ -14,7 +14,7 @@
 NAME=easy-explorer
 USER=admin
 EEXPLORER=/apps/easyexplorer/bin/$NAME
-PIDFILE=/apps/easyexplorer/bin/eexplorer.pid
+PIDFILE=/var/run/$NAME.pid
 
 test -f $EEXPLORER || exit 0
 
