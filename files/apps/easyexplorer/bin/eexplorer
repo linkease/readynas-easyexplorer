@@ -14,7 +14,7 @@
 NAME=easy-explorer
 USER=admin
 EEXPLORER=/apps/easyexplorer/bin/$NAME
-PIDFILE=/var/run/$NAME.pid
+PIDFILE=/apps/easyexplorer/bin/eexplorer.pid
 
 test -f $EEXPLORER || exit 0
 
@@ -29,7 +29,7 @@ stop)   log_daemon_msg "Stopping EasyExplorer" "EasyExplorer"
         start-stop-daemon -K -q -p $PIDFILE
         log_end_msg $?
         ;;
-restart|reload|force-reload)
+restart)
         log_daemon_msg "Restarting EasyExplorer" "EasyExplorer"
         start-stop-daemon -K -R 5 -q -p $PIDFILE
         start-stop-daemon -S -q -b -m -p $PIDFILE -c $USER -a $EEXPLORER
@@ -38,7 +38,7 @@ restart|reload|force-reload)
 status)
         status_of_proc -p $PIDFILE $EEXPLORER EasyExplorer && exit 0 || exit $?
         ;;
-*)      log_action_msg "Usage: /etc/init.d/eexplorer {start|stop|restart|reload|force-reload|status}"
+*)      log_action_msg "Usage: /etc/init.d/eexplorer {start|stop|restart|status}"
 
         exit 2
         ;;
