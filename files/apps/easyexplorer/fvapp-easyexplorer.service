@@ -1,14 +1,13 @@
 [Unit]
 Description=EasyExplorer 
 
-
 [Service]
 Type=forking
 User=admin
 Group=admin
 ExecStart=/etc/init.d/eexplorer start
 ExecStop=/etc/init.d/eexplorer stop
-PIDFile=/etc/init.d/eexplorer.pid
+PIDFile=/var/run/easy-explorer.pid
 
 [Install]
 WantedBy=multi-user.target
