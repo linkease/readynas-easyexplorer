@@ -1,5 +1,6 @@
 [Unit]
-Description=EasyExplorer 
+Description=Service for EasyExplorer 
+After=apache2.service readynasd.service
 
 [Service]
 Type=forking
@@ -8,6 +9,7 @@ Group=admin
 ExecStart=/etc/init.d/eexplorer start
 ExecStop=/etc/init.d/eexplorer stop
 PIDFile=/var/run/easy-explorer.pid
+Restart=always
 
 [Install]
 WantedBy=multi-user.target
