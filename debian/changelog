@@ -1,5 +1,6 @@
-easyexplorer (1.0) unstable; urgency=low
+easyexplorer (1.3) unstable; urgency=low
 
   * new upstream release
-
- -- bbis <bbis@cheen.cn>  Thu, 16 Nov 2017 22:11:14 +0800
+  * add DLNA&Chromecast Media Server
+  
+ -- bbis <bbis@cheen.cn>  Wed, 20 Dec 2017 00:35:10 +0800
