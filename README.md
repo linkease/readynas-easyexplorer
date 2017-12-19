@@ -1,5 +1,5 @@
-# readynas-easyexplorer
-EasyExplorer 跨设备、点对点文件传输同步工具 http://koolshare.cn/thread-129199-1-1.html
+# readynas-easyexplorer 
+EasyExplorer 跨设备、点对点文件传输同步工具+DLNA流媒体转码播放 http://koolshare.cn/thread-129199-1-1.html
 # 链接地址
 请把 [nas-ip] 换成自己的　nas 真实　ip
 
