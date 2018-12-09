@@ -1,6 +1,7 @@
-easyexplorer (1.3) unstable; urgency=low
+easyexplorer (0.1.10) unstable; urgency=low
 
+  * add Remote Control and Desktop Sharing
   * new upstream release
   * add DLNA&Chromecast Media Server
   
- -- bbis <bbis@cheen.cn>  Wed, 20 Dec 2017 00:35:10 +0800
+ -- bbis <bbis@cheen.cn>  Sun, 9 Dec 2018 16:20:10 +0800

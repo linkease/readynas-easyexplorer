@@ -28,11 +28,11 @@ case "$1" in
 #check arm or x86
 	info=$(uname -a)
 	if [[ "{$info}" =~ "arm" ]]; then
-    mv /apps/easyexplorer/bin/easy-explorer-arm5 /apps/easyexplorer/bin/easy-explorer
+    mv /apps/easyexplorer/bin/easy-explorer-arm /apps/easyexplorer/bin/easy-explorer
 	rm -f /apps/easyexplorer/bin/easy-explorer-linux
 	elif [[ "{$info}" =~ "x86" ]];then
     mv /apps/easyexplorer/bin/easy-explorer-linux /apps/easyexplorer/bin/easy-explorer
-	rm -f /apps/easyexplorer/bin/easy-explorer-arm5	
+	rm -f /apps/easyexplorer/bin/easy-explorer-arm	
 	fi
 
 
