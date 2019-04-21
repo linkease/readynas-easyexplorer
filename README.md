@@ -1,5 +1,6 @@
-# ReadyNAS-EasyExplorer 
-EasyExplorer 跨设备、点对点文件传输同步工具+DLNA流媒体转码播放 http://koolshare.cn/thread-129199-1-1.html
+# ReadyNAS-EasyExplorer 易有云
+易有云是一款跨设备、点对点文件传输同步工具
+配置及教程 http://koolshare.cn/thread-129199-1-1.html
 # 链接地址
 请把 [nas-ip] 换成自己的　nas 真实　ip
 
@@ -10,4 +11,4 @@ EasyExplorer 跨设备、点对点文件传输同步工具+DLNA流媒体转码�
 
 # 使用方法
 请看最上面链接的教程
-大意是：nas 里面运行好了，在公司或其它地方，再运行一次本软件，两个节点就能自动建立点对点连接，传输文件　
+大意是：NAS里面运行好了，在公司或其它地方，再运行一次本软件，两个节点就能自动建立点对点连接，传输文件　
