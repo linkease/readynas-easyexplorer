@@ -1,9 +1,9 @@
 <Application resource-id="easyexplorer">
   <AppID>WHOCARES_GENIEAPP_011029</AppID>
   <Category>APP_CAT_NETWORK_OTHER</Category>   
-  <Name>Easy Explorer</Name>
+  <Name>易有云</Name>
   <Author>bbis</Author>
-  <Version>0.1.10</Version>
+  <Version>20190417.051642</Version>
   <RequireReboot>0</RequireReboot>
   <ConfigURL>http://localhost:8899/static/config.html</ConfigURL>
   <InfoURL>http://koolshare.cn/thread-129199-1-1.html</InfoURL>
@@ -11,5 +11,5 @@
   <ReservePort>8899</ReservePort>
   <DebianPackage>easyexplorer</DebianPackage>
   <ServiceName>fvapp-easyexplorer.service</ServiceName><!-- no service required -->
-  <Description lang="zh-cn">EasyExplorer是一个跨设备点对点文件传输同步工具，在一个设备上管理所有文件的增量复制、同步等功能；支持DLNA、Chromecast多媒体服务，视频实时转码将流媒体投送到设备播放。新增远程桌面分享、控制</Description>
+  <Description lang="zh-cn">易有云是一个跨设备点对点文件传输同步工具，在一个设备上管理所有文件的增量复制、同步等功能，支持DLNA、Chromecast多媒体服务，将流媒体投送到播放设备。</Description>
 </Application>
