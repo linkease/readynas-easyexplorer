@@ -3,7 +3,7 @@ Section: contrib
 Priority: extra
 Maintainer: bbis <bbis@cheen.cn>
 Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 20190417.051642
+Standards-Version: 20190529.234308
 Homepage: http://koolshare.cn/thread-129199-1-1.html
 
 Package: easyexplorer

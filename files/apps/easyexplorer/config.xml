@@ -3,7 +3,7 @@
   <Category>APP_CAT_NETWORK_OTHER</Category>   
   <Name>易有云</Name>
   <Author>bbis</Author>
-  <Version>20190417.051642</Version>
+  <Version>20190529.234308</Version>
   <RequireReboot>0</RequireReboot>
   <ConfigURL>http://localhost:8899/static/config.html</ConfigURL>
   <InfoURL>http://koolshare.cn/thread-129199-1-1.html</InfoURL>
@@ -11,5 +11,5 @@
   <ReservePort>8899</ReservePort>
   <DebianPackage>easyexplorer</DebianPackage>
   <ServiceName>fvapp-easyexplorer.service</ServiceName><!-- no service required -->
-  <Description lang="zh-cn">易有云是一个跨设备点对点文件传输同步工具，在一个设备上管理所有文件的增量复制、同步等功能，支持DLNA、Chromecast多媒体服务，将流媒体投送到播放设备。</Description>
+  <Description lang="zh-cn">易有云是一款私人云工具，跨设备支持多平台之间管理、备份文件。易有云自适应网络，支持文件快速备份、媒体在线浏览、实时同步等功能。</Description>
 </Application>
