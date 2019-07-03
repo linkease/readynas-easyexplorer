@@ -9,5 +9,5 @@ install:
 
 veryclean:
 	dh clean
-	rm -f ../aria2_*
+	rm -f ../easyexplorer_*
 

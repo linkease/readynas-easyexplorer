@@ -3,7 +3,7 @@
   <Category>APP_CAT_NETWORK_OTHER</Category>   
   <Name>易有云</Name>
   <Author>bbis</Author>
-  <Version>20190529.234308</Version>
+  <Version>20190702.163857</Version>
   <RequireReboot>0</RequireReboot>
   <ConfigURL>http://localhost:8899/static/config.html</ConfigURL>
   <InfoURL>http://koolshare.cn/thread-129199-1-1.html</InfoURL>
